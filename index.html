@@ -20,6 +20,8 @@ body {
 
 h1, h2, h3, h4 {
     color: #ff6347;
+    margin-bottom: 10px;
+    
 
 }
 
@@ -53,10 +55,16 @@ img{
 }
 
 .Proposaltemplate h4{
-text-align: center;
-border: solid 1px #ff6347;
-border-radius: 10px;
-padding: 6px;
+    font-size: 1.5em;
+    border: 1px solid #ff6347;
+    border-radius: 10px;
+    padding: 4px 8px;
+    display: inline-block; 
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+   
+     
 }
 .tipcontainer, .start, .timer, .Quorumguide {
     background-color: #f5f5f5;
@@ -75,6 +83,8 @@ padding: 6px;
 .Proposaltemplate ul {
     list-style: none;
     padding: 0;
+    font-size: 1em;
+    text-align: center;
 }
 
 .Proposaltemplate li {
@@ -120,21 +130,21 @@ padding: 6px;
     }
 
 }
-    @media only screen and (max-width: 768px) {
-      .timer-images {
+@media only screen and (max-width: 768px) {
+    .timer-images {
         justify-content: center;
-      }
+    }
 
-      .timer-images img {
-        flex: 0 0 45%; 
-      }
-      .start img {
+    .timer-images img {
+        flex: 0 0 45%;
+    }
+    .start img {
         max-width: 80%;
     }
-	    
+
     .Proposaltemplate {
         margin: 15px;
-        width: 100%; 
+        width: 100%;
         max-width: none;
     }
 
@@ -144,33 +154,33 @@ padding: 6px;
         font-size: 1.5em;
     }
 
+    .Proposaltemplate h2,
+    .Proposaltemplate h3,
+    .Proposaltemplate h4 {
+        font-size: 1.5em;
+    margin-bottom: 2%;
+    }
 
+    .Proposaltemplate ul {
+        list-style: none;
+        padding: 10px;
+        margin-left: 10px;
+        justify-content: center;
+        text-align: center;
+        font-size: 1em;
+    }
 
-   .Proposaltemplate h2,
-   .Proposaltemplate h3,
-   .Proposaltemplate h4 {
-      font-size: 1.5em;
-   }
+    .Proposaltemplate li {
+        margin-bottom: 8px;
+    }
 
-
-.Proposaltemplate ul {
-   list-style: none;
-   padding: 0;
-   margin-left: 0;
-   justify-content: center;
-   text-align: center;
+    .Proposaltemplate img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 }
 
-.Proposaltemplate li {
-   margin-bottom: 8px;
-}
-
-.Proposaltemplate img {
-   max-width: 100%;
-   height: auto;
-   border-radius: 10px;
-}
-    }   
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -235,7 +245,9 @@ Please paste this template below in the proposal channel or a Google Docs sheet 
 <li>**Member:**</li>
 <li>**Position:**</li>
 <li>**Description:**</li>
+</ul>
     <h4>Event/Party Proposal:</h4>
+    <ul>
 <li>**Event:**</li>
 <li>**Member:**</li>
 <li>**PizzaDAO Proposal Sponsor:**</li>
@@ -247,11 +259,12 @@ Please paste this template below in the proposal channel or a Google Docs sheet 
 <li>**Other Confirmed Event Sponsors:**</li>
 <li>**Ordering Pizza From:**</li>
 <li>**Description & How This Benefits PizzaDAO:**</li>
-
 <li>I have reviewed the Standard Operating Procedure (accessible at https://docs.google.com/document/d/1pB1oNcfBj_LHhljzOrV97BU1pfr77msZnZXdIsT_06g/edit?usp=sharing) and hereby acknowledge my commitment to adhere to its terms.</li>
+</ul>
 <br>
     <h4>Asset Liquidation Proposal
 </h4>
+<ul>
 <li>**Proposal:**</li>
 <li>**Date:**</li>
 <li>**Member/PizzaDAO:**</li>
@@ -271,9 +284,11 @@ Please paste this template below in the proposal channel or a Google Docs sheet 
 <li>-[Total Value]</li>
 
 <li>**Purpose of Sale:** [Clearly state the purpose or reasons for selling the treasury holdings, such as funding specific projects, covering operational costs, etc.]</li>
+</ul>
 <br>
     <h4>Product Proposal:</h4>
-<li>**Product:**</li>
+<ul>
+    <li>**Product:**</li>
 <li>**Member:**</li>
 <li>**Manufacturer/Source (include website link):**</li>
 <li>**Ordering Date:**</li>
